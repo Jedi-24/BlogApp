@@ -1,0 +1,28 @@
+.header {
+  margin-top: 60px;
+}
+.headertitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(219, 84, 84);
+}
+.htsm {
+  position: absolute;
+  font-size: 20px;
+  top: 10%;
+}
+.htlg {
+  border-top: 3px solid #000000;
+  border-radius: 7px;
+  position: absolute;
+  font-weight: 500;
+  font-size: 60px;
+  top: 15%;
+}
+.headerimg {
+  width: 100%;
+  height: 450px;
+  margin-top: 85px;
+  object-fit: cover;
+}

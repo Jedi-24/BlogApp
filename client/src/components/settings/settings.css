@@ -1,0 +1,72 @@
+.settings {
+  display: flex;
+}
+.setwrap {
+  flex: 9;
+  padding: 20px;
+}
+.settitle {
+  display: flex;
+  justify-content: space-between;
+}
+.setupdtitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: rgb(97, 255, 97);
+  cursor: pointer;
+}
+.setdeltitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: red;
+  cursor: pointer;
+}
+.setform {
+  display: flex;
+  flex-direction: column;
+}
+.setprofile {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.setprofile > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.setproficon {
+  width: 25px;
+  height: 25px;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.setform > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.setform > input {
+  border: none;
+  color: gray;
+  margin: 10px 0;
+  border-bottom: 1px solid lightgrey;
+  height: 30px;
+}
+.setupdate {
+  width: 150px;
+  align-self: center;
+  color: white;
+  background-color: teal;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}

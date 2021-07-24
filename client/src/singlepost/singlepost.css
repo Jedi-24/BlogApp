@@ -1,0 +1,84 @@
+.singlepost {
+  flex: 9;
+}
+.singlepostwrap {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+.spimg {
+  width: 100%;
+  height: 350px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+.sptitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+}
+.sptitleinput {
+  margin: 10px;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+.sptitleinput:focus {
+  outline: none;
+}
+.spud {
+  float: right;
+}
+.ud {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.ud:first-child {
+  color: teal;
+}
+.ud:last-child {
+  color: red;
+}
+.spinfo {
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.spdesc {
+  color: #444;
+  line-height: 25px;
+  font-size: 18px;
+}
+.spdesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.spdescinput {
+  border: none;
+  color: #444;
+  line-height: 25px;
+  font-size: 18px;
+}
+.spdescinput:focus {
+  outline: none;
+}
+.spupdbtn {
+  color: white;
+  background-color: black;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}

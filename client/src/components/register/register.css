@@ -1,0 +1,51 @@
+.R {
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url(https://c0.wallpaperflare.com/preview/456/573/300/blank-notebook-pencil-pen.jpg);
+  background-size: cover;
+}
+.regtitle {
+  font-size: 50px;
+}
+.regform {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.regform > label {
+  margin: 10px 0;
+  font-weight: 600;
+}
+.regform > input {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+.regbtn {
+  margin-top: 14px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.loginbtn {
+  border: none;
+  color: white;
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 7px;
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  cursor: pointer;
+}
